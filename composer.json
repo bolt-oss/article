@@ -1,5 +1,5 @@
 {
-    "name": "bolt/article",
+    "name": "bolt-oss/article",
     "description": "📝 Bolt Extension to add the Article FieldType",
     "type": "bolt-extension",
     "license": "MIT",
@@ -13,8 +13,11 @@
         "php": ">=7.2.9"
     },
     "require-dev": {
-        "bolt/core": "^5.0",
+        "bolt-oss/core": "^5.0",
         "symplify/easy-coding-standard": "^7.0"
+    },
+    "replace": {
+        "bolt/article": "*"
     },
     "autoload": {
         "psr-4": {
